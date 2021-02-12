@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 .setTextSize(DensityUtils.dp2px(14))
                 .setHeight(DensityUtils.dp2px(30))
                 .build();
+        //字母头在条目中第一次出现的位置
         array.put(0, "A");
         array.put(1, "B");
         array.put(2, "C");
