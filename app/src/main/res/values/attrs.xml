@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LetterIndicatorView">
+        <attr name="dora_indicator_bg_color" format="color|reference" />
+        <attr name="dora_indicator_item_width" format="dimension|reference" />
+        <attr name="dora_indicator_item_height" format="dimension|reference" />
+        <attr name="dora_indicator_text_size" format="dimension|reference" />
+        <attr name="dora_indicator_selected_text_color" format="color|reference" />
+        <attr name="dora_indicator_selected_bg_color" format="color|reference" />
+        <attr name="dora_indicator_selected_bg_radius" format="dimension|reference" />
+        <attr name="dora_indicator_unselected_text_color" format="color|reference" />
+
+        <attr name="dora_zoom_up_indicator_text_size" format="dimension|reference" />
+        <attr name="dora_zoom_up_indicator_text_color" format="color|reference" />
+        <attr name="dora_zoom_up_indicator_bg_color" format="color|reference" />
+        <attr name="dora_zoom_up_indicator_bg_radius" format="dimension|reference" />
+        <attr name="dora_zoom_up_indicator_margin" format="dimension|reference" />
+
+        <attr name="dora_header_drawable" format="reference" />
+    </declare-styleable>
+</resources>
