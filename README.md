@@ -39,4 +39,4 @@ https://github.com/dora4/dora_side_bar/blob/main/art/dora_side_bar.apk
 | dora_indicatorBubbleBgColor     | 侧边栏气泡背景色 |
 | dora_indicatorBubbleBgRadius     | 侧边栏气泡背景半径 |
 | dora_indicatorBubbleMargin     | 侧边栏气泡外边距 |
-| dora_headerDrawable     | 侧边栏气泡图形 |
+| dora_indicatorBubbleDrawable     | 侧边栏气泡图形 |
