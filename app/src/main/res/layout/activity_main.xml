@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <dora.widget.LetterIndicatorView
+        android:id="@+id/liv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        app:dora_indicatorBgColor="@android:color/transparent"
+        app:dora_indicatorItemWidth="20dp"
+        app:dora_indicatorItemHeight="15dp"
+        app:dora_indicatorSelectedBgColor="@android:color/white"
+        app:dora_indicatorSelectedBgRadius="8dp"
+        app:dora_indicatorSelectedTextColor="#04d5d5"
+        app:dora_indicatorTextSize="10sp"
+        app:dora_indicatorUnselectedTextColor="#646464"
+        app:dora_indicatorBubbleBgColor="#20000000"
+        app:dora_indicatorBubbleBgRadius="20dp"
+        app:dora_indicatorBubbleMargin="0dp"
+        app:dora_indicatorBubbleTextColor="@android:color/white"
+        app:dora_indicatorBubbleTextSize="20sp"/>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LetterIndicatorView">
+        <attr name="dora_indicatorBgColor" format="color|reference" />
+        <attr name="dora_indicatorItemWidth" format="dimension|reference" />
+        <attr name="dora_indicatorItemHeight" format="dimension|reference" />
+        <attr name="dora_indicatorTextSize" format="dimension|reference" />
+        <attr name="dora_indicatorSelectedTextColor" format="color|reference" />
+        <attr name="dora_indicatorSelectedBgColor" format="color|reference" />
+        <attr name="dora_indicatorSelectedBgRadius" format="dimension|reference" />
+        <attr name="dora_indicatorUnselectedTextColor" format="color|reference" />
+        <attr name="dora_indicatorBubbleTextSize" format="dimension|reference" />
+        <attr name="dora_indicatorBubbleTextColor" format="color|reference" />
+        <attr name="dora_indicatorBubbleBgColor" format="color|reference" />
+        <attr name="dora_indicatorBubbleBgRadius" format="dimension|reference" />
+        <attr name="dora_indicatorBubbleMargin" format="dimension|reference" />
+        <attr name="dora_indicatorBubbleDrawable" format="reference" />
+    </declare-styleable>
+</resources>
